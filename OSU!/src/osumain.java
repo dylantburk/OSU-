@@ -31,7 +31,6 @@ public class osumain extends JPanel implements MouseMotionListener, ActionListen
 		private boolean lose = false;
 		private boolean win = false;
 		private int click;
-		private int restartCount;
 		private Color darkGrey = new Color(25,25,25);
 		JFrame frame = new JFrame("Dylan Burkholder - OSU!");
 		private Container can = frame.getContentPane();
@@ -260,16 +259,7 @@ public class osumain extends JPanel implements MouseMotionListener, ActionListen
 
 
 	public void mousePressed(MouseEvent e) {
-		// click the circles
-		/*for(int i = 0; i < lotsOfBalls.length; i++) {
-			if(crosshair.ballCollision(lotsOfBalls[i].getLocX(), lotsOfBalls[i].getLocY(), lotsOfBalls[i].getDiameter())) {
-				click++;
-				lotsOfBalls[i].dissappear();
-				
-			}
-			
-		}
-		repaint();*/
+		
 	}
 
 
